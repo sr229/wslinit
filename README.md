@@ -17,6 +17,8 @@ First of all, put the shell script in the appropriate place, somewhere in `/usr/
 
 You will have to figure out how to prevent re-executing the script yourself. A good way to do this is to comment out the line where this script is getting initialized after the successful invocation of this script first time.
 
+A sample version of this would be [`firstrun.sh`](https://github.com/sr229/wslinit/blob/master/firstrun.sh) located in this repository.
+
 ## Copyright
 
 Copyright 2020 &copy; Ayane Satomi. Licensed under MIT.
